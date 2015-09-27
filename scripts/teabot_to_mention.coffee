@@ -15,21 +15,21 @@ module.exports = (robot) ->
 
 #API hardwear sponsor commands
 module.exports = (robot) ->
-  robot.hear /help me ring!/i, (res) ->
+  robot.hear /tell me about ring!/i, (res) ->
     res.send "@liam_yamane さん、呼んでます！助けてあげてください！"
 
 module.exports = (robot) ->
-  robot.hear /help me milkcocoa!/i, (res) ->
+  robot.hear /tell me about milkcocoa!/i, (res) ->
     res.send ""
 
 module.exports = (robot) ->
-  robot.hear /help me monaca!/i, (res) ->
+  robot.hear /tell me about monaca!/i, (res) ->
     res.send ""
 
 module.exports = (robot) ->
-  robot.hear /help me sendgrid!/i, (res) ->
+  robot.hear /tell me about sendgrid!/i, (res) ->
     res.send ""
 
 module.exports = (robot) ->
-  robot.hear /help me twilio!/i, (res) ->
+  robot.hear /tell me about twilio!/i, (res) ->
     res.send ""
