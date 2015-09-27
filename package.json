@@ -5,6 +5,8 @@
   "author": "jumpeiyamane <jumpei.yamane@givery.co.jp>",
   "description": "I am a teabot",
   "dependencies": {
+    "cron": "^1.0.9",
+    "eastasianwidth": "^0.1.1",
     "hubot": "^2.16.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.1",
