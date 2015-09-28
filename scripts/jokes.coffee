@@ -1,3 +1,8 @@
+# ========================================================
+#
+# This bot is slack hubot in Givery, inc
+# botname : teabot
+# Made by : JP <Jumpei Liam Yamane>
 # Description:
 #   Joke commands.
 #
@@ -5,6 +10,9 @@
 #   tanzaku <文章> - 短冊メーカー (15文字以内)
 #   バカ - codyが怒ります
 #   突然の - 死!!!
+#
+# ========================================================
+
 
 eastasianwidth = require 'eastasianwidth'
 
