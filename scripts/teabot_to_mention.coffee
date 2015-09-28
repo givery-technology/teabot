@@ -15,7 +15,7 @@ module.exports = (robot) ->
 
 #API hardwear sponsor commands
   robot.hear /tell me about ring!/i, (res) ->
-    res.send "@liam_yamane さん、呼んでます！助けてあげてください！"
+    res.send "<@liam_yamane> さん、呼んでます！助けてあげてください！"
 
   robot.hear /tell me about milkcocoa!/i, (res) ->
     res.send ""
