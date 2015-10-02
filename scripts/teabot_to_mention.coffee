@@ -23,7 +23,7 @@ module.exports = (robot) ->
   robot.hear /mentor sendgrid/i, (res) ->
     res.send "<@nakansuke_sendgrid>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
 
-  robot.hear /mentor voicedroid/i, (res) ->
+  robot.hear /mentor voiceroid/i, (res) ->
     res.send "<@mori_voiceroid>さん、<@sun_voiceroid>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
 
   robot.hear /mentor drone/i, (res) ->
