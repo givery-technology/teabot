@@ -27,13 +27,13 @@ module.exports = (robot) ->
     res.send "<@mori_voiceroid>さん、<@sun_voiceroid>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
 
   robot.hear /mentor drone/i, (res) ->
-    res.send "<@junichikuroda_drone>さん、<@n0bisuke_drone>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
+    res.send "<@drone_kuroda>さん、<@n0bisuke_lig>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
 
   robot.hear /mentor milkcocoa/i, (res) ->
-    res.send "<@n0bisuke_drone>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
+    res.send "<@n0bisuke_lig>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
 
   robot.hear /mentor olympus air/i, (res) ->
-    res.send "<@kensukeishii_olympus_air>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
+    res.send "<@kensukeishii_olympus>さん、#{res.envelope.user.name}が呼んでます。質問に答えてあげてください！"
 
   robot.hear /mentor saison/i, (res) ->
     res.send "つ<@saison_givery>氏、出番やで"
