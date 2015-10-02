@@ -15,9 +15,7 @@ module.exports = (robot) ->
 
 #API hardwear sponsor commands
   robot.hear /tell me about ring!/i, (res) ->
-    console.log res
-    res.send "<@liam_givery>さん、#{res.envelope.user.name}が呼んでます。"
-    robot.messageRoom 'device_ring' , "チャネルで質問してみましょう！"
+    res.send "<@liam_givery>さん、#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！"
 
   robot.hear /tell me about sendgrid!/i, (res) ->
     res.send "<nakansuke_sendgrid>さん、参加者が呼んでます。sendgridについて聞きたいようなのでヘルプお願いします！"
