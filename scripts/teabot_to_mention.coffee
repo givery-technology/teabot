@@ -38,5 +38,8 @@ module.exports = (robot) ->
   robot.hear /mentor saison/i, (res) ->
     res.send "つ<@saison_givery>氏、出番やで"
 
-  robot.hear /show me timeline/i, (res) ->
+  robot.hear /418 timeline/i, (res) ->
     res.send "09:00-10:00    受付時間\n10:00-10:10    開会挨拶\n10:10-10:25    5社会社プレゼン\n10:25-11:00    API＆デバイス講義\n11:00-13:00    アイデアソン\n13:00-13:40    ランチ\n13:40-18:00    開発\n18:00-19:00    ディナー\n19:00-22:00    ハッカソン\n"
+
+  robot.hear /418 judge/i, (res) ->
+    res.send "実用性：実際の現場などで利用して有効であること\n完成度：開発物の出来\nテーマ親和性：次世代のコミュニケーションになり得るか"
