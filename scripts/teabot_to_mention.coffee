@@ -16,20 +16,19 @@ module.exports = (robot) ->
 #API hardwear sponsor commands
   robot.hear /tell me about ring!/i, (res) ->
     console.log res
-    robot.messageRoom 'device_ring' , "チャネルで質問してみましょう！"
-    res.send "<@liam_givery>さん、#{res.envelope.user.name}が呼んでます。"
+    res.send "<@liam_givery>さん、#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！"
 
   robot.hear /tell me about sendgrid!/i, (res) ->
-    res.send "<nakansuke_sendgrid>さん、参加者が呼んでます。sendgridについて聞きたいようなのでヘルプお願いします！"
+    res.send "<@nakansuke_sendgrid>さん、#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！"
 
   robot.hear /tell me about voicedroid!/i, (res) ->
-    res.send "<mori_voiceroid>さん、<sun_voiceroid>さん、参加者が呼んでいます。voiceroidについて聞きたいようなのでヘルプお願いします！"
+    res.send "<@mori_voiceroid>さん、<@sun_voiceroid>さん、#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！"
 
   robot.hear /tell me about drone!/i, (res) ->
-    res.send "<junichikuroda_drone>さん、<n0bisuke_drone>さん、参加者が呼んでいます。droneについて聞きたいようなのでヘルプお願いします！"
+    res.send "<@junichikuroda_drone>さん、<@n0bisuke_drone>さん、#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！"
 
   robot.hear /tell me about milkcocoa!/i, (res) ->
-    res.send "<n0bisuke_drone>さん、参加者が呼んでいます。milkcocoaについて聞きたいようなのでヘルプお願いします!"
+    res.send "<@n0bisuke_drone>さん、参加者が呼んでいます。#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！"
 
   robot.hear /tell me about olympus air!/i, (res) ->
-    res.send "<kensukeishii_olympus_air>さん、参加者が呼んでいます。#milkcocoaについて聞きたいようなのでヘルプお願いします!"
+    res.send "<@kensukeishii_olympus_air>さん、参加者が呼んでいます。#{res.envelope.user.name}が呼んでます。チャネルで質問してみましょう！""
